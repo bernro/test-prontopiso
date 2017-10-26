@@ -1,0 +1,18 @@
+
+// files like functions, variables, mixins etc
+@import 'utils/functions';
+@import 'utils/mixins';
+@import 'utils/utility';
+@import 'utils/variables';
+
+// Partials :
+// Contain files like header, footer, sidebars,
+// widgets, breadcrumbs.. patterns that contain components
+
+@import 'partials/base';
+@import 'partials/header';
+@import 'partials/footer';
+
+// Components :
+// Contain all the styles for every component
+@import 'components/list';
