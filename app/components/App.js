@@ -1,10 +1,10 @@
 import React from 'react';
-import Routes from '../routes';
+import ListContainer from './list/ListContainer';
 
 const App = () =>
     <div>
-        <h1>FORM</h1>
-        { Routes }
+        <h1>List</h1>
+        <ListContainer />
     </div>;
 
 export default App;

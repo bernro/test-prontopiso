@@ -14,7 +14,7 @@ render(
 );
 
 if (module.hot) {
-    module.hot.accept('./containers/Root', () => {
+    module.hot.accept('./components/Root', () => {
         const newConfigureStore = require('./redux/store/configureStore');
         const newStore = newConfigureStore.configureStore();
         const newHistory = newConfigureStore.history;

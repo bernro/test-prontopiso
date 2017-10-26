@@ -1,10 +1,10 @@
 import { routerReducer as routing } from 'react-router-redux';
 import { combineReducers } from 'redux';
-import PisosReducer from "./PisosReducer.js";
+import HousesReducer from './HousesReducer.js';
 
 
 const rootReducer = combineReducers({
-    pisos: PisosReducer,
+    houses: HousesReducer,
     routing
 });
 
